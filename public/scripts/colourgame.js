@@ -78,31 +78,6 @@ resetButton.addEventListener("click", function() {
 })
 
 
-
-
-// function changeColours(colour) {
-
-
-// for(var i = 0; i < squares.length; i++) {
-//   //add initial colours to squares
-
-//   //add click listener
-//   squares[i].addEventListener("click", function() {
-//     var clickedColour = this.style.backgroundColor;
-//       if(clickedColour === pickedColour) {
-//          messageDisplay.textContent = "Correct";
-//          resetButton.textContent = "Play Again?";
-//          changeColours(clickedColour);
-//          h1.style.backgroundColor = clickedColour;
-//             }
-//        else {
-//         this.style.backgroundColor = "#232323";
-//         messageDisplay.textContent = "Try Again";
-//        }
-//     });
-// }
-
-
 function changeColours(colour) {
   for(var i = 0; i < squares.length; i++) {
     squares[i].style.backgroundColor = colour;
